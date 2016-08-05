@@ -1,6 +1,5 @@
 <?php
-  //backup_tables('localhost','root','root','Edudel_1_6_2016');
-  backup_tables('localhost','root','root','db_hrm_test');
+  backup_tables('hostname','username','password','dbName');
 
 /* backup the db OR just a table */
 function backup_tables($host,$user,$pass,$name,$tables = '*')
